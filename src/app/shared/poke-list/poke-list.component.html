@@ -1,5 +1,5 @@
 <poke-search (emitSearch)="getSearch($event)"></poke-search>
-
+<app-pagination (emitNextPage)="nextPage($event)"></app-pagination>
 <section class="listagem" *ngIf="isLoading">
     <ng-template ngFor let-pokemon [ngForOf]="getAllPokemons">
         <a [routerLink]="['details', pokemon.status.id]" class="pokemon" *ngIf="pokemon.status">

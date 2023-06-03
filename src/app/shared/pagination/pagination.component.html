@@ -1,0 +1,12 @@
+
+<div class="pagination" *ngIf="blockButton">
+    <ul>
+        <li [ngClass]="blockButton.first ? 'disabled' : '' ">
+            <button class="esquerdo" (click)="changePage('anterior')">Anterior</button>
+        </li>
+        <span>{{numberPage}}</span>
+        <li [ngClass]="blockButton.last ? 'disabled' : '' ">
+            <button class="direito" (click)="changePage('proximo')">Proximo</button>      
+        </li>
+    </ul>
+</div>

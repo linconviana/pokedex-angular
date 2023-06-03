@@ -57,3 +57,7 @@ https://www.theappguruz.com/tag-tools/web/CSSAnimations/
 
 //// novo tutorial angular pokemon
 https://www.youtube.com/watch?v=jbrD2lzMtVw
+
+continuar 40min
+
+<!--src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png" -->

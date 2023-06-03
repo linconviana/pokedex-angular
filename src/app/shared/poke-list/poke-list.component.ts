@@ -39,4 +39,22 @@ export class PokeListComponent implements OnInit {
 
     this.getAllPokemons = filter;
   }
+
+  public nextPage(value: number){
+
+    this.pokeApiService.updateUrl(value).subscribe(
+      res => {
+        this.setAllPokemons = [];
+        this.getAllPokemons = this.setAllPokemons;
+
+        this.setAllPokemons = res.results;
+        this.getAllPokemons = this.setAllPokemons;
+        this.isLoading = true
+      },
+      error =>{
+        this.apiError = true
+        return error
+      }
+    );
+  }
 }

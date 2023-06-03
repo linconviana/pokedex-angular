@@ -1,0 +1,44 @@
+.app-pagination .pagination,
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    width: 1200px;
+}
+
+.pagination ul{
+    display: flex;
+    font-weight: 700;
+}
+
+li.disabled button {
+    color: #dee2e6;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6 !important;
+}
+
+.pagination button{
+    padding: 5px 10px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.pagination button:hover{
+    color: #fff;
+    background: #c0c0c0;
+}
+
+.pagination button.esquerdo{
+    border-radius: 5px 0 0 5px;
+}
+
+.pagination button.direito{
+    border-radius: 0 5px 5px 0;
+}
+
+.pagination span{
+    padding: 3.5px 10px;
+    background: #fff;
+    border: 1px solid #000;
+}

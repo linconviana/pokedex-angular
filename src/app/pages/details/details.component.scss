@@ -14,6 +14,9 @@
 
 			padding: 0 10px;
 
+			width: 600px;
+			margin: auto;
+
 			h1 {
 				color: var(--branco);
 				font-size: 32px;
@@ -39,7 +42,9 @@
 
 		.pokemon__status {
 			position: relative;
-
+			width: 600px;
+			margin: auto;
+			
 			img {
 				position: absolute;
 				top: -90px;
